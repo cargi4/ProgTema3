@@ -8,14 +8,14 @@ params:
   lang: ES
 lang: "`r switch(params$lang, ES = 'es-ES', EN = 'en-US')`"
 output:
-  html_notebook:
-    echo: yes
-    number_sections: yes
-    toc: yes
-  pdf_document:
-    toc: yes
-    toc_depth: 3
-    number_sections: yes
+  # html_notebook:
+  #   echo: yes
+  #   number_sections: yes
+  #   toc: yes
+  # pdf_document:
+  #   toc: yes
+  #   toc_depth: 3
+  #   number_sections: yes
   html_document:
     echo: yes
     number_sections: yes
